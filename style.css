@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    font-size: 62.5%;
+}
+
+html, body, input {
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+    display: flex;
+    gap: 6rem;
+    margin: 4rem 15rem;
+}
+
+.flex {
+    display: flex
+}
+
+.card {
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-cards);
+    margin: 0rem 0rem 3rem 4rem;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+.profile {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.card-profile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-profile img {
+    width: 12.8rem;
+    height: 12.8rem;
+    margin: 3.2rem 3rem;
+    border: 0.2rem solid #00FF00;
+    border-radius: 100%
+    
+}
+
+.card-profile p {
+    padding: 1rem 0rem 4.9rem 0rem;
+    font-size: 1.3rem;
+}
+
+.card-links {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0rem 3rem 4rem;
+    gap: 2rem;
+}
+
+.card-links a {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.3rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.card-tecnologias h1 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.card-tecnologias-linguagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    justify-content: center;
+    padding: 2rem 3rem 3rem 3rem;
+}
+
+.card-tecnologias-linguagens p {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: var(--bg-techs);
+    border-radius: 3rem;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.card-experiencia h1 {
+    padding: 3rem 0rem 0rem 2rem;
+}
+
+.card-experiencia-lista {
+    padding: 2rem 0rem 3rem 5rem;
+}
+
+.card-experiencia-item {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.card-experiencia-item li {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-main {
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-cards);
+    margin: 0rem 4rem 4rem 0rem;
+}
+
+.info-main {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.card-titulo-meus-projetos {
+    justify-content: space-between;
+    padding: 3rem 4rem;
+    align-items: center;
+}
+
+.card-meus-projetos p {
+    font-size: 1.4rem;
+}
+
+.cards-projetos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projetos {
+    padding: 2rem 3rem;
+    flex-basis: 40rem;
+}
+
+.projetos a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.projetos-titulo {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.projetos-descricao {
+    font-size: 1.4rem;
+    margin: 2.2rem 0rem 4.7rem 0rem;
+}
+
+.projetos-rodape {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.projetos-rodape p {
+    margin-right: 1.6rem;
+}
+
+.card-post {
+    display: flex;
+}
+
+.card-post img {
+    width: 12.8rem;
+    height: 12.8rem;
+    margin: 3.2rem 3rem;
+    border-radius: 100%
+}
+
+.card-post h2 {
+    padding: 4rem 0rem 0.5rem 0rem;
+    font-size: 1.8rem;
+}
+
+.card-post h3 {
+    padding: 2.8rem 0rem 1.1rem 0rem;
+    font-size: 1.6rem;
+}
+
+.card-post p {
+    font-size: 1.4rem;
+}
+
+
+.card-post-hashtag {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+
+}
